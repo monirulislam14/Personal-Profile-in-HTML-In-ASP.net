@@ -1,0 +1,150 @@
+﻿body{
+    border:1px;
+   
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+    background-color: lightslategrey;
+}
+
+
+
+nav {
+    width: 980px;
+   border-top:4px;
+}
+
+    nav ul li {
+        display: inline;
+    }
+
+        nav ul li a {
+            clear: both;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            padding: 10px 0;
+            width: 192px;
+            background-color: antiquewhite;
+            text-align: center;
+           
+        }
+
+            nav ul li a:hover {
+                background-color: darkolivegreen;
+                color: black;
+                font-weight: bold;
+            }
+
+.container {
+    width: 980px;
+}
+
+.content {
+    width: 700px;
+    float: right;
+}
+
+article {
+    margin: 5px 0;
+   padding-top:5px;
+    float: left;
+}
+
+    article h2 {
+        font-size: 20px;
+        margin: 4px 2px;
+        font-weight: bold;
+        padding: 0 5px;
+        width:700px;
+    }
+
+        article h2:hover {
+            font-size: 22px;
+            color: blue;
+        }
+
+  
+    article table td{
+        width:300px;
+        padding-left:50px;
+        padding-top:15px;
+    }
+
+    article p{
+        font-size:20px;
+    }
+aside {
+    float: left;
+    width: 275px;
+    height: 500px;
+    border: 1px solid Black;
+    margin-top: 5px;
+    background-color: grey;
+}
+
+section {
+    margin: 1px 0;
+    padding: 4px;
+ 
+}
+
+    section h2 {
+        font-size: 25px;
+        padding-top: 4px;
+        font-weight: bold;
+        padding: 0 3px;
+        color:darksalmon;
+    }
+
+    section h3 {
+        font-size: 20px;
+        padding: 0 5px;
+        color: aliceblue;
+    }
+
+    section h2:hover {
+        font-size: 22px;
+        color: blueviolet;
+    }
+    table td{
+        width:130px;
+    }
+footer {
+    width: 960px;
+    height: 50px;
+    background-color: aqua;
+    clear: both;
+}
+
+    footer h2 {
+        font-size: 20px;
+        color: brown;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+    }
+
+marquee {
+    width: 960px;
+    height: 35px;
+    background-color: aqua;
+}
+
+    marquee h2 {
+        padding: 4px;
+        font-weight: bold;
+        color: deeppink;
+        font-size: 23px;
+    }
+
+        marquee h2:hover {
+            font-size: 25px;
+            color: darkslategrey;
+            -moz-animation-play-state: paused;
+            -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+        }
